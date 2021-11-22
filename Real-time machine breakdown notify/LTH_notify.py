@@ -6,7 +6,7 @@ class Notify:
     def production_notify(job_no, status, production_line, machine, symptom, downtime_time_record, recorder):
         url = 'https://notify-api.line.me/api/notify'
 
-        token = '59gcmyRRF2I82nL5H18W1xkMiCYen5YysbUUbyi4wkX'
+        token = 'Add token here!!!'
 
         headers = {'content-type': 'application/x-www-form-urlencoded',
                    'Authorization': 'Bearer '+token}
@@ -28,7 +28,7 @@ class Notify:
     def maintenance_notify(job_no, status, production_line, machine, symptom, cause, action, downtime_time_record, repairing_time_record, finished_time_record, total_downtime, total_repairing_time, recorder):
         url = 'https://notify-api.line.me/api/notify'
 
-        token = '59gcmyRRF2I82nL5H18W1xkMiCYen5YysbUUbyi4wkX'
+        token = 'Add token here!!!'
 
         headers = {'content-type': 'application/x-www-form-urlencoded',
                    'Authorization': 'Bearer '+token}
